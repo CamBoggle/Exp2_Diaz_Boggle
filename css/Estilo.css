@@ -9,6 +9,11 @@
     float:right;
 }
 
+.donacion{
+  padding-left: 20px;
+  float:right;
+}
+
 .parrafo{      
     background-color: #6d6d6d;
     color: rgb(255, 255, 255);
@@ -69,9 +74,18 @@
 }
 
 
+.bajarBoton{
+  padding-top: 30px;
+}
 
+.fondoApi{
+  background-color:#17A2B8;
+}
 
-
+.fotoApi{
+  height: 200px;
+  width: 200px;
+}
 
 /*SELECTOR DE TIPO ID*/
 
@@ -99,6 +113,98 @@
 footer{
     background-color: black;
 }
+
+/*RELOJ*/
+
+#centrar{
+  padding-top: 20px;
+  height: 100px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-family: 'lato';
+}
+
+.container-clock{
+  text-align: center;
+
+}
+
+.container-clock h1{
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.container-clock p{
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+
+/*... VER MAS*/
+
+.contenedor{
+  width: 88%;
+  padding: 10px;
+  margin: auto;
+}
+
+.btnvermas{
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.ocultar{
+  display: none;
+}
+
+.mostrar{
+  display: block;
+}
+
+/*ESTILOS API*/
+
+.fuent{
+  font-size: 15px;
+  text-align: center;
+}
+
+
+/*CONFIGURACION PARA VALIDAR*/
+.error-control{
+  border:1px solid red;
+}
+
+label.error{
+  color:red;
+  width: 250px;
+  font-size:0.8em;
+  margin-top:-5px;
+  margin-bottom:10px;
+}
+
+textarea{
+resize: none;
+}
+
+form {
+
+width: 50%;
+}
+
+
+.divuno{
+height: 70px;
+width: 100%;
+}
+
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------------------------------------------------------------------*/

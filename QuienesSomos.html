@@ -19,13 +19,18 @@
         <div class="container-fluid" >
             <div class="row" style="background-color: #6d6d6d;">
                 <div class="col-md">
-                    <p id="letra2">Numero de Contacto: +569-98745632</p>
+                    <div class="container-fluid" id="centrar">
+                        <div class="container-clock"> 
+                            <h1 id="time">00:00:00</h1>
+                            <p id="date">Fecha</p>
+                        </div> 
+                    </div>
                 </div> 
-                <div class="col-md boton">
+                <div class="col-md boton bajarBoton">
                     <div class="iniciar">
                         <a href="#" target="_blank" type="button" class="btn btn-info">Iniciar Sesion</a>
                     </div>   
-                </div>           
+                </div>          
             </div>
         </div><!--FIN LINEA SUPERIOR-->
 
@@ -93,18 +98,24 @@
                             </div><!-- FIN DIV MAPA-->
                         </div>
                     </div>
+                    
                     <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
                     <div class="content ps-0 ps-lg-5"> <!--DIV QUE ABARCA LISTAS,PARRAFO,IMAGEN Y VIDEO-->
+                    <div class="contenedor">
                         <p class="fst-italic fuenteBlanca"> <!--PARRAFO ANTES DE LAS LISTAS-->
                             Somos Especialistas en la venta de productos para mascotas, siendo la tienda online número uno en Chile, con más de 5 años de experiencia ofreciendo alimentos, 
                             accesorios, productos de higiene y salud.
-                        
+                            <button class="button btnvermas fuenteBlanca" id="btn_ver_mas">... Ver mas</button>                       
                         </p>
-                        <ul><!-- LISTA DESORDENADA MISION VISION OBJETIVO--> 
-                        <li class="fuenteBlanca"><i class="bi bi-check2-all"></i> <strong>MISIÓN</strong>: Somos una empresa dedicada a entregar diversa variedad de productos y servicios para mascotas, investigando e innovando para mejorar  la calidad de vida de ellos y facilitar el día a día de nuestros clientes.</li><!--LISTAS-->
-                        <li class="fuenteBlanca"><i class="bi bi-check2-all"></i> <strong>VISIÓN</strong>: Ser el principal vendedor de productos y servicios de mascotas del ecommerce, entregando productos y servicios novedosos que satisfagan las necesidades de nuestros clientes.</li><!--LISTAS-->
-                        <li class="fuenteBlanca"><i class="bi bi-check2-all"></i> <strong>OBJETIVO</strong>: Lograr  crear conciencia en nuestra sociedad respecto a la realidad de perros en situación de calle, logrando un cambio de actitud a través del ejemplo de buenas prácticas en tenencia responsable de mascotas.</li><!--LISTAS-->
-                        </ul> <!-- FIN LISTA DESORDENADA -->
+                        <span class="ocultar" id="span_text">
+                            <ul><!-- LISTA DESORDENADA MISION VISION OBJETIVO--> 
+                            <li class="fuenteBlanca"><i class="bi bi-check2-all"></i> <strong>MISIÓN</strong>: Somos una empresa dedicada a entregar diversa variedad de productos y servicios para mascotas, investigando e innovando para mejorar  la calidad de vida de ellos y facilitar el día a día de nuestros clientes.</li><!--LISTAS-->
+                            <li class="fuenteBlanca"><i class="bi bi-check2-all"></i> <strong>VISIÓN</strong>: Ser el principal vendedor de productos y servicios de mascotas del ecommerce, entregando productos y servicios novedosos que satisfagan las necesidades de nuestros clientes.</li><!--LISTAS-->
+                            <li class="fuenteBlanca"><i class="bi bi-check2-all"></i> <strong>OBJETIVO</strong>: Lograr  crear conciencia en nuestra sociedad respecto a la realidad de perros en situación de calle, logrando un cambio de actitud a través del ejemplo de buenas prácticas en tenencia responsable de mascotas.</li><!--LISTAS-->
+                            </ul> <!-- FIN LISTA DESORDENADA -->
+                            <button class="button btnvermas fuenteBlanca" id="btn_ver_menos">Ver menos</button>
+                        </span>
+                    </div>
         
                         <div class="position-relative mt-4">
                             <div class="container-fluid fotoVid" style="background-color: #3b3b3b;">
@@ -120,6 +131,8 @@
             </section><!-- TERMINO DE SECCION QUIENES SOMOS-->
 
         </main><!-- ESTILOS FIN -->
+
+              
     </div>
 
  
@@ -202,8 +215,8 @@
 
            
 
-
-
+    <script src="js/codes.js"></script>
+    <script src="js/clock.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
